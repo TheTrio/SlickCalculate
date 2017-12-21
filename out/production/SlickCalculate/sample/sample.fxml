@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDropped="#dragIn" prefHeight="577.0" prefWidth="411.0" style="-fx-background-color: #424242;" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+      <Label fx:id="output" alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="415.0" style="-fx-background-color: #212121;" textFill="RED">
+         <VBox.margin>
+            <Insets left="5.0" right="5.0" top="10.0" />
+         </VBox.margin>
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+        <Label fx:id="display" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="82.0" prefWidth="415.0" style="-fx-background-color: #212121;" textFill="RED">
+            <VBox.margin>
+                <Insets left="5.0" right="5.0" />
+            </VBox.margin>
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Pane prefHeight="414.0" prefWidth="400.0">
+            <VBox.margin>
+                <Insets left="45.0" top="10.0" />
+            </VBox.margin>
+            <children>
+                <JFXButton fx:id="seven" buttonType="RAISED" layoutX="5.0" layoutY="83.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="7">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="four" buttonType="RAISED" layoutX="5.0" layoutY="167.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="4">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="one" buttonType="RAISED" layoutX="5.0" layoutY="251.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="1">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="eight" buttonType="RAISED" layoutX="87.0" layoutY="83.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="8">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="five" buttonType="RAISED" layoutX="87.0" layoutY="167.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="5">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="two" buttonType="RAISED" layoutX="87.0" layoutY="251.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="2">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="nine" buttonType="RAISED" layoutX="168.0" layoutY="83.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="9">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="six" buttonType="RAISED" layoutX="168.0" layoutY="167.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="6">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="three" buttonType="RAISED" layoutX="168.0" layoutY="251.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="3">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="zero" buttonType="RAISED" layoutX="6.0" layoutY="333.0" onMouseEntered="#hoverOver" onMouseExited="#hoverOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #35FFD3;" text="0">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="minus" buttonType="RAISED" layoutX="254.0" layoutY="83.0" onMouseEntered="#operatorIn" onMouseExited="#operatorOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #FFF54C;" text="-">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="plus" buttonType="RAISED" layoutX="254.0" layoutY="167.0" onMouseEntered="#operatorIn" onMouseExited="#operatorOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #FFF54C;" text="+">
+                    <font>
+                        <Font size="27.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="dot" buttonType="RAISED" layoutX="87.0" layoutY="333.0" onMouseEntered="#othersIn" onMouseExited="#othersOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #32FF42;" text=".">
+                    <font>
+                        <Font size="34.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="calculate" buttonType="RAISED" layoutX="254.0" layoutY="251.0" onMouseEntered="#othersIn" onMouseExited="#othersOut" prefHeight="159.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #32FF42;" text="=">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="divide" buttonType="RAISED" layoutX="168.0" onMouseEntered="#operatorIn" onMouseExited="#operatorOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #FFF54C;" text="÷">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="multiply" buttonType="RAISED" layoutX="254.0" onMouseEntered="#operatorIn" onMouseExited="#operatorOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #FFF54C;" text="x">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </JFXButton>
+                <JFXButton fx:id="sqrt" buttonType="RAISED" layoutX="5.0" onMouseEntered="#operatorIn" onMouseExited="#operatorOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #FFF54C;" text="√">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </JFXButton>
+            <JFXButton fx:id="exp" buttonType="RAISED" layoutX="85.0" onMouseEntered="#operatorIn" onMouseExited="#operatorOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #FFF54C;" text="^">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="plus_minus" buttonType="RAISED" layoutX="168.0" layoutY="333.0" onMouseEntered="#othersIn" onMouseExited="#othersOut" prefHeight="74.0" prefWidth="72.0" ripplerFill="WHITE" style="-fx-background-color: #32FF42;" text="±">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </JFXButton>
+            </children>
+        </Pane>
+    </children>
+</VBox>

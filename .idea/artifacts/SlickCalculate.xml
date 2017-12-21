@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="SlickCalculate">
+    <output-path>$PROJECT_DIR$/out/artifacts/SlickCalculate</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="SlickCalculate" />
+        <option name="vendor" value="TheTrio" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="SlickCalculate.jar">
+        <element id="module-output" name="SlickCalculate" />
+      </element>
+      <element id="file-copy" path="F:/Custom Libraries/JFoenix/jfoenix.jar" />
+    </root>
+  </artifact>
+</component>
